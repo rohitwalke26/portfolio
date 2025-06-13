@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: white;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+}
+.navbtn{
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bolder;
+}
+.navbtn:hover{
+    color: white;
+    background-color: blue;
+    
+}
+.up{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upleft{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.upleft>p{
+    padding: 20px 0 20px 0;
+    margin-left: 40px;
+}
+.upright{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    height: 300px;
+    width: 300px;
+    background-image: url("images/photo2.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.upbtn{
+    padding: 7px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.upbtn:hover{
+    background-color: blue;
+    color: white;
+}
+.mid{
+    height: 400px;
+    width: 100%;
+    background-color:rgb(182, 217, 229);
+}
+.midin{
+height: 95%;
+width: 100%;
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+}
+.midleft{
+    height: 80%;
+    width: 40%;
+    background-color: white;
+}
+.midright{
+    height: 80%;
+    width: 40%;
+    background-color: white;
+}
+
+.sheading{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bolder;
+    color: rgb(14, 68, 50);
+    margin-top: 30px;
+    background-color: mediumaquamarine;
+}
+
+.projectCnt{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+.project_card{
+    width: 30%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px silver;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(210,221,218,1) 31%, rgba(0,212,255,1) 95%, rgba(0,212,255,1) 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    transition: all 0.3s linear;
+}
+.project_card button{
+    background-color: red;
+    color: white;
+    padding: 7px 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: italic;
+}
+.project_card button:hover{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    transition: all 0.3s linear;
+}
+.project_card button i{
+    margin-left: 7px;
+}
+
+.project_card:hover{
+    transform: scale(1.1);
+}
+
+.skillcnt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill{
+    width: 30%;
+    height: 40px;
+    background-color: rgb(73, 175, 239);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: all 0.3s linear;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.skill:hover{
+    transform: scale(1.1);
+}
+
+.certificatecnt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+.certificate{
+    width: 50%;
+    height: 40px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.certificate a{
+    text-decoration: none;
+    color: black;
+}
+.certificate:hover{
+    transform: scale(1.1);
+    background-color: skyblue;
+    color: black;
+    
+}
+.contactcnt{
+    margin: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.contact i{
+    margin-right: 40px;
+}
